@@ -1,0 +1,38 @@
+.container{
+    height: 650px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.login{
+    display: inline-block;
+    margin-top: 200px;
+    border: 1px solid lightgrey;
+    position: absolute;
+    z-index: 999;
+    left:430px;
+    min-width: 390px;
+    border-radius: 3px;
+}
+.video{
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    background-size: cover;
+}
+.buttons{
+    margin-top: 20px;
+    padding: 20px;
+}
+.buttons button{
+    background-color: purple;
+    height: 50px;
+    width: 70px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-right: 50px;
+}

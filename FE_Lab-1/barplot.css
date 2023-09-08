@@ -1,0 +1,87 @@
+.container{
+    margin-top: 100px;
+}
+.plot{
+    height: 35rem;
+    background-color: #DFDDDC;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    position: relative;
+}
+.bar{
+    width: 80%;
+    height: 25rem;
+    background-color: DFDDDC;
+    position: absolute;
+    top:5%;
+    left: 10%;
+    display: flex;
+    gap:20%;
+}
+.text{
+    position: absolute;
+    top: 86%;
+    left:30%;
+}
+.bar .bars{
+    height: 25rem;
+    width: 10rem;
+    background-color: white;
+    position: relative;
+}
+.plot1{
+    width: 100%;
+    background-color: darkgray;
+    height: 0rem;
+    position: absolute;
+    bottom: 0%;
+    animation: 1s plot1 .45s linear;
+    animation-fill-mode: forwards;
+}
+.plot2{
+    width: 100%;
+    background-color: darkgray;
+    height: 0rem;
+    position: absolute;
+    bottom: 0%;
+    animation: 1s plot2 .45s linear;
+    animation-fill-mode: forwards;
+}
+.plot3{
+    width: 100%;
+    background-color: darkgray;
+    height: 0rem;
+    position: absolute;
+    bottom: 0%;
+    animation: 1s plot3 .45s linear;
+    animation-fill-mode: forwards;
+}
+.text1{
+    position: absolute;
+    top: 100%;
+    left:30%;
+}
+.text2{
+    position: absolute;
+    top: 100%;
+    left:30%;
+}
+.text3{
+    position: absolute;
+    top: 100%;
+    left:30%;
+}
+/* Animation */
+@keyframes plot1 {
+    from {height: 0px;}
+    to {height: 7.5rem;}
+}
+@keyframes plot2 {
+    from {height: 0px;}
+    to {height: 10rem;}
+}
+@keyframes plot3 {
+    from {height: 0px;}
+    to {height: 20rem;}
+}
